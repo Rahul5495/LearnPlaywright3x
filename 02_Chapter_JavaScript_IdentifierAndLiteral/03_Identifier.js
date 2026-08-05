@@ -22,20 +22,5 @@ let name="integerValue";
 console.log(Name);
 console.log(name);
 
-let age=20;
-const pi=3.14;
-let name1="Rahul";
-let isStudent=true;
-let nullValue=null;
-let undefinedValue;
-let student_23=13;
-console.log(student_23);
-
-console.log(typeof age);
-console.log(typeof pi);
-console.log(typeof name1);
-console.log(typeof isStudent);
-console.log(typeof nullValue);
-console.log(typeof undefinedValue);
 
 
