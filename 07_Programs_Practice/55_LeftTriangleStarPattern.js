@@ -8,3 +8,12 @@ for (let i = rows; i >= 1; i--) {
     }
     console.log(output);
 }
+
+console.log("--------------");
+
+for (let k=rows; k>=1; k--){
+        for(let l=1; l<=k; l++){
+            process.stdout.write("*");
+        }
+        console.log(" ");
+    }

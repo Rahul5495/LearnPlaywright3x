@@ -10,8 +10,17 @@ for(let i=1; i<=rows; i++ ){
     console.log(output);
 }
 
+console.log("------------");
+
 /*let pattern = "";
 for (let i = n; i >= 1; i--) {
     pattern = '*'.repeat(i);
     console.log(pattern);
 } */
+
+    for (let k=1; k<=rows; k++){
+        for(let l=1; l<=k; l++){
+            process.stdout.write("*");
+        }
+        console.log(" ");
+    }
